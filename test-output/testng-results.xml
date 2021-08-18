@@ -2,61 +2,59 @@
 <testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="103637" started-at="2021-08-17T13:05:39 IST" finished-at="2021-08-17T13:07:23 IST">
+  <suite name="Default suite" duration-ms="76425" started-at="2021-08-18T18:59:23 IST" finished-at="2021-08-18T19:00:40 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="103637" started-at="2021-08-17T13:05:39 IST" finished-at="2021-08-17T13:07:23 IST">
+    <test name="Default test" duration-ms="76425" started-at="2021-08-18T18:59:23 IST" finished-at="2021-08-18T19:00:40 IST">
       <class name="OrangeTest.OrangeHRMLogin">
-        <test-method status="PASS" signature="browserOpen()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserOpen" is-config="true" duration-ms="41418" started-at="2021-08-17T13:05:39 IST" finished-at="2021-08-17T13:06:21 IST">
+        <test-method status="PASS" signature="browserOpen()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserOpen" is-config="true" duration-ms="11547" started-at="2021-08-18T18:59:23 IST" finished-at="2021-08-18T18:59:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method status="PASS" signature="TC1_OrangeLoginPositive()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="TC1_OrangeLoginPositive" duration-ms="9539" started-at="2021-08-17T13:06:21 IST" finished-at="2021-08-17T13:06:30 IST">
+        <test-method status="PASS" signature="TC1_OrangeLoginPositive()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="TC1_OrangeLoginPositive" duration-ms="7714" started-at="2021-08-18T18:59:35 IST" finished-at="2021-08-18T18:59:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1_OrangeLoginPositive -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserClose" is-config="true" duration-ms="439" started-at="2021-08-17T13:06:30 IST" finished-at="2021-08-17T13:06:31 IST">
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserClose" is-config="true" duration-ms="591" started-at="2021-08-18T18:59:43 IST" finished-at="2021-08-18T18:59:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="browserOpen()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserOpen" is-config="true" duration-ms="11993" started-at="2021-08-17T13:06:31 IST" finished-at="2021-08-17T13:06:43 IST">
+        <test-method status="PASS" signature="browserOpen()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserOpen" is-config="true" duration-ms="10839" started-at="2021-08-18T18:59:43 IST" finished-at="2021-08-18T18:59:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method status="PASS" signature="TC2_OrangeLoginNegative()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="TC2_OrangeLoginNegative" duration-ms="5376" started-at="2021-08-17T13:06:43 IST" finished-at="2021-08-17T13:06:48 IST">
+        <test-method status="PASS" signature="TC2_OrangeLoginNegative()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="TC2_OrangeLoginNegative" duration-ms="7651" started-at="2021-08-18T18:59:54 IST" finished-at="2021-08-18T19:00:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2_OrangeLoginNegative -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserClose" is-config="true" duration-ms="88" started-at="2021-08-17T13:06:48 IST" finished-at="2021-08-17T13:06:48 IST">
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserClose" is-config="true" duration-ms="577" started-at="2021-08-18T19:00:02 IST" finished-at="2021-08-18T19:00:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="browserOpen()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserOpen" is-config="true" duration-ms="9295" started-at="2021-08-17T13:06:48 IST" finished-at="2021-08-17T13:06:57 IST">
+        <test-method status="PASS" signature="browserOpen()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserOpen" is-config="true" duration-ms="9796" started-at="2021-08-18T19:00:02 IST" finished-at="2021-08-18T19:00:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method status="FAIL" signature="TC3_OrangeLoginPositiveFail()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="TC3_OrangeLoginPositiveFail" duration-ms="5391" started-at="2021-08-17T13:06:57 IST" finished-at="2021-08-17T13:07:03 IST">
+        <test-method status="FAIL" signature="TC3_OrangeLoginPositiveFail()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="TC3_OrangeLoginPositiveFail" duration-ms="7115" started-at="2021-08-18T19:00:12 IST" finished-at="2021-08-18T19:00:19 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#mainMenuFirstLevelUnorderedList"}
-  (Session info: chrome=92.0.4515.131)
+              <![CDATA[
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SONY-PC', ip: '192.168.0.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SONY\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a4bc931c40dbfb71392159a7984510b4
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, apple:safari.options: {}, browserName: Safari, browserVersion: 13.1, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19E287, safari:platformVersion: 10.15.4, safari:useSimulator: false, selenium:webdriver.remote.quietExceptions: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: CA64DEEB-48C8-4C94-BAE2-5CA..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: faaa9533f7ea4b8fa89aa917d4ccf110
 *** Element info: {Using=id, value=mainMenuFirstLevelUnorderedList}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#mainMenuFirstLevelUnorderedList"}
-  (Session info: chrome=92.0.4515.131)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: 
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SONY-PC', ip: '192.168.0.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SONY\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a4bc931c40dbfb71392159a7984510b4
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, apple:safari.options: {}, browserName: Safari, browserVersion: 13.1, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19E287, safari:platformVersion: 10.15.4, safari:useSimulator: false, selenium:webdriver.remote.quietExceptions: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: CA64DEEB-48C8-4C94-BAE2-5CA..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: faaa9533f7ea4b8fa89aa917d4ccf110
 *** Element info: {Using=id, value=mainMenuFirstLevelUnorderedList}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -66,7 +64,6 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpR
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
@@ -108,36 +105,34 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC3_OrangeLoginPositiveFail -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserClose" is-config="true" duration-ms="180" started-at="2021-08-17T13:07:04 IST" finished-at="2021-08-17T13:07:04 IST">
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserClose" is-config="true" duration-ms="540" started-at="2021-08-18T19:00:20 IST" finished-at="2021-08-18T19:00:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method status="PASS" signature="browserOpen()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserOpen" is-config="true" duration-ms="9059" started-at="2021-08-17T13:07:04 IST" finished-at="2021-08-17T13:07:13 IST">
+        <test-method status="PASS" signature="browserOpen()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserOpen" is-config="true" duration-ms="10479" started-at="2021-08-18T19:00:21 IST" finished-at="2021-08-18T19:00:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method status="FAIL" signature="TC4_OrangeLoginNegativeFail()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="TC4_OrangeLoginNegativeFail" duration-ms="9526" started-at="2021-08-17T13:07:13 IST" finished-at="2021-08-17T13:07:22 IST">
+        <test-method status="FAIL" signature="TC4_OrangeLoginNegativeFail()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="TC4_OrangeLoginNegativeFail" duration-ms="7043" started-at="2021-08-18T19:00:31 IST" finished-at="2021-08-18T19:00:38 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#spanMessage"}
-  (Session info: chrome=92.0.4515.131)
+              <![CDATA[
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SONY-PC', ip: '192.168.0.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SONY\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 93643ca04dbb3334ecef0c1c2513c2cf
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, apple:safari.options: {}, browserName: Safari, browserVersion: 13.1, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19E287, safari:platformVersion: 10.15.4, safari:useSimulator: false, selenium:webdriver.remote.quietExceptions: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: EEA62CEA-06EE-4F23-80DD-DB2..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 465fc665d66c43b1a098665f3c840073
 *** Element info: {Using=id, value=spanMessage}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#spanMessage"}
-  (Session info: chrome=92.0.4515.131)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: 
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SONY-PC', ip: '192.168.0.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SONY\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 93643ca04dbb3334ecef0c1c2513c2cf
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, apple:safari.options: {}, browserName: Safari, browserVersion: 13.1, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19E287, safari:platformVersion: 10.15.4, safari:useSimulator: false, selenium:webdriver.remote.quietExceptions: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: EEA62CEA-06EE-4F23-80DD-DB2..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 465fc665d66c43b1a098665f3c840073
 *** Element info: {Using=id, value=spanMessage}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -147,7 +142,6 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpR
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
@@ -189,11 +183,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC4_OrangeLoginNegativeFail -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserClose" is-config="true" duration-ms="131" started-at="2021-08-17T13:07:23 IST" finished-at="2021-08-17T13:07:23 IST">
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:OrangeTest.OrangeHRMLogin@55740540]" name="browserClose" is-config="true" duration-ms="557" started-at="2021-08-18T19:00:39 IST" finished-at="2021-08-18T19:00:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- OrangeTest.OrangeHRMLogin -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

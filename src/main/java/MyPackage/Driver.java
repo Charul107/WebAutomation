@@ -4,15 +4,20 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.safari.SafariOptions;
 import org.apache.commons.io.FileUtils;
 
 @SuppressWarnings("unused")
@@ -24,7 +29,16 @@ public class Driver {
 	public void initializeBrowser() throws IOException {
 		loadProps();
 		System.setProperty("webdriver.chrome.driver", props.getProperty("ChromeDriverPath"));
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
+		MutableCapabilities sauceOptions = new MutableCapabilities();
+
+		SafariOptions browserOptions = new SafariOptions();
+		browserOptions.setCapability("platformName", "macOS 10.15");
+		browserOptions.setCapability("browserVersion", "13.1");
+		browserOptions.setCapability("sauce:options", sauceOptions);
+		
+		driver = new RemoteWebDriver(
+			    new URL("https://oauth-charul107-2cee7:c69e5fa4-5fb5-4803-ab7c-ae3df40d34b0@ondemand.eu-central-1.saucelabs.com:443/wd/hub"), browserOptions);
 		driver.get(props.getProperty("URL"));
 	}
 
